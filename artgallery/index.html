@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <div class="logo">My Gallery</div>
+
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search images...">
+        </div>
+
+        <div class="right-side">
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+
+            <button class="dark-btn" id="darkMode">Dark</button>
+
+        </div>
+
+    </nav>
+
+    <!-- FILTERS -->
+
+    <div class="filters">
+        <button onclick="filterImages('all')">All</button>
+        <button onclick="filterImages('nature')">Nature</button>
+        <button onclick="filterImages('anime')">Anime</button>
+        <button onclick="filterImages('car')">Car</button>
+    </div>
+
+    <!-- SLIDESHOW -->
+
+    <div class="slideshow-container" id="home">
+
+        <img id="slide-image" src="https://4kwallpapers.com/images/walls/thumbs_2t/25220.jpg">
+
+    </div>
+
+    <!-- GALLERY -->
+
+
+
+    <!-- CIRCULAR ROTATING SLIDER -->
+
+<div class="circle-slider-section">
+
+    <h2 class="circle-title">3D Rotating Gallery</h2>
+
+    <div class="circle-slider">
+
+        <div class="slides">
+
+            <img src="https://4kwallpapers.com/images/walls/thumbs_2t/25220.jpg">
+
+            <img src="https://4kwallpapers.com/images/walls/thumbs_2t/24976.png">
+
+            <img src="assets/img6.jpg">
+
+            <img src="assets/img11.jpg">
+
+            <img src="assets/img7.jpg">
+
+            <img src="assets/img10.jpg">
+
+            <img src="assets/img8.jpg">
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- GALLERY -->
+
+    <div class="container" id="gallery">
+
+        <div class="item anime">
+            <img src="https://4kwallpapers.com/images/walls/thumbs_2t/25220.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Sakura</div>
+        </div>
+
+        <div class="item anime">
+            <img src="https://4kwallpapers.com/images/walls/thumbs_2t/24976.png">
+            <button class="like-btn">❤</button>
+            <div class="caption">Naruto & Sasuke</div>
+        </div>
+
+        <div class="item anime">
+            <img src="assets/img.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Monkey D. Luffy
+
+            </div>
+        </div>
+
+
+        <div class="item car">
+            <img src="assets/img7.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Car</div>
+        </div>
+
+
+
+        <div class="item anime">
+            <img src="assets/img3.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Tanjiro </div>
+        </div>
+
+        <div class="item anime">
+            <img src="assets/img4.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Gojo Saturo</div>
+        </div>
+
+        <div class="item nature">
+            <img src="assets/img5.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Beauty of Nature</div>
+        </div>
+
+
+
+
+        <div class="item car">
+            <img src="assets/img6.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Ferrari Car</div>
+        </div>
+
+
+        <div class="item nature anime">
+            <img src="assets/img2.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Frictional Image</div>
+        </div>
+
+
+
+        <div class="item nature anime">
+            <img src="assets/img11.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Anime Mountain</div>
+        </div>
+
+
+        <div class="item car">
+            <img src="assets/img8.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Super Car</div>
+        </div>
+
+        <div class="item nature">
+            <img src="assets/img9.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">City during rain</div>
+        </div>
+
+        <div class="item anime nature">
+            <img src="assets/img10.jpg">
+            <button class="like-btn">❤</button>
+            <div class="caption">Anime</div>
+        </div>
+
+
+
+
+
+    </div>
+
+    <!-- LIGHTBOX -->
+
+    <div id="lightbox">
+
+        <span id="close">&times;</span>
+
+        <img id="lightbox-img">
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer id="footer">
+
+    <div class="footer-content">
+
+        <h2>Modern Gallery Website</h2>
+
+        <p class="footer-text">
+            Explore creative wallpapers, anime art and beautiful gallery collections.
+        </p>
+
+        <p class="developer">
+            © 2026 | Developed by <span>Kiran Rathod</span>
+        </p>
+
+        <div class="footer-links">
+
+            <a href="https://www.linkedin.com/in/kiranrathod-r/" target="_blank">
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/Kiran-Rathod-R" target="_blank">
+                GitHub
+            </a>
+
+        </div>
+
+        <p class="made">
+            Made with ❤️ using HTML, CSS & JavaScript
+        </p>
+
+    </div>
+
+</footer>
+
+
+    <script src="script.js">
+
+       
+    </script>
+
+</body>
+
+</html>

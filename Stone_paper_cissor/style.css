@@ -1,0 +1,100 @@
+ * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            background-color: black;
+            color: aliceblue;
+            font-size: 3vmin;
+            height: 18vmin;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .imgs {
+            /* background-color: aqua; */
+            /* height: 40vmin; */
+            display: flex;
+            gap: 4vmin;
+            align-items: center;
+            justify-content: center;
+            padding: 4vmin;
+
+
+        }
+
+        img {
+            height: 25vmin;
+            width: 25vmin;
+            border-radius: 90vmin;
+            cursor: pointer;
+
+        }
+
+        #imges {
+            border: 1vmin solid black;
+
+        }
+
+        .point {
+            margin: 3vmin;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4vmin;
+            height: 20vmin;
+            /* background-color: aquamarine; */
+
+        }
+
+        .mypoint {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 3vmin;
+
+        }
+
+        div h1 {
+            font-size: 10vmin;
+        }
+
+        h3 {
+            font-size: larger;
+        }
+
+        .computerpoint {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        button {
+            padding: 2vmin;
+            margin: 2vmin;
+            font-size: large;
+            background-color: green;
+            border: 0.4vmin solid black;
+            border-radius: 1vmin;
+            cursor: pointer;
+            
+            
+        }
+
+        .selected {
+            border: 0.8vmin solid rgb(0, 0, 0);
+            transform: scale(1.1);
+        }
